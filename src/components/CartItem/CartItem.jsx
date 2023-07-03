@@ -28,4 +28,8 @@ function CartItem({data}) {
 	);
 }
  
+CartItem.propTypes = {
+	data: propTypes.object
+}.isRequired;
+
 export default CartItem;
